@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header-menu*/
+header{
+    position: sticky;
+    z-index: 1;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    
+    
+
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.container ul li{
+    list-style-type: none;
+    margin: 0 20px 0 20px;
+
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ababac;
+}
+
+.container ul li a img{
+   
+    height: 19px;
+}
+/*header-manu-end*/
+
+/*header-end-section*/
+.header-under-section{
+    background-color: rgba(29,29,31,1);
+    position: relative;
+    padding: 6px 0 6px 0;
+    top: 55px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+section{
+    background: #000;
+    height: 660px;
+    overflow: hidden;
+}
+
+
+.header-under-section span{
+    color:#2997ff;
+}
+
+/*header-end-section*/
+
+/*iphone-14-pro-section*/
+section .heading{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.heading h1{
+    position: relative;
+    top: 48px;
+    font-size: 56px;
+    color: white;   
+}
+.heading h3{
+    color: white;
+    position: relative;
+    top: 7px;
+    font-size: 30px;
+}
+
+.heading :nth-child(3){
+    display: inline;
+    border: 1px solid #6e6e73;
+    color: #6e6e73;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.heading :nth-child(4){
+    font-size: 21px;
+     margin-top: 28px;
+    
+}
+.heading :nth-child(4) a{
+    padding: 0 10px ;
+    text-decoration: none;
+    color: #2997ff;
+}
+section .iphone-img {
+    display:flex;
+    justify-content: center;
+}
+
+section .iphone-img img{
+    width: 770px;
+    height: 500px;
+}
+
+/*iphone-14-pro-end-section*/
+
+/*iphone-14-section*/
+.section-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    overflow: hidden;
+}
+.section-2 .heading-2 h1{
+    font-size: 50px;
+    margin: 30px 0 0 0;
+}
+.section-2 .heading-2 h3{
+    margin: 10px 0 0 0;
+    font-size: 23px;
+}
+
+.heading-2 :nth-child(3){
+    display: inline;
+    border: 1px solid #6e6e73;
+    color: #6e6e73;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 25px; 
+}
+.heading-2 :nth-child(4){
+
+    position: relative; 
+    top: 35px;
+
+}
+.heading-2 :nth-child(4) a{
+    font-size: 23px;
+    padding: 10px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.section-2 .iphone-img img{
+    width: 820px;
+    height: 420px;
+    position: relative;
+    top: 20px;
+}
+/*iphone-14-end-section*/
+
+/*apple watch-section*/
+
+.heading-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 13px;
+    
+
+}
+
+.heading-3 .whatch{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    
+}
+.heading-3 .heding .whatch img{
+    position: relative;
+    right: 12px;
+}
+.heading-3 .whatch h1{
+    margin: 0;
+    position: relative;
+    top: 11px;
+    color: white;
+}
+
+.heading-3 .heding h3{
+    color: white;
+    margin-top: 55px;
+    color: red;
+    letter-spacing: 2px;
+    
+}
+
+.heading-3 .heding :nth-child(3) {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.heading-3 .heding :nth-child(4) {
+    margin: 0;
+    font-size: 22px;
+    position: relative;
+    top: 15px;
+    
+} 
+.heading-3 .heding :nth-child(4) a{
+text-decoration: none;
+color: #2997ff;
+padding-right:13px ;
+}
+
+.heading-3 .im img{
+    width: 800px;
+    height: 450px;
+}
+
+/*apple watch-end-section*/
+
+/*apple-prodect-section*/
+
+.container-2{
+    display: flex;
+    padding-top:10px ;
+    background-color: #fbfbfd;
+}
+
+.section-1 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    
+    
+}
+.section-1 .img-1, .img-2, .img-3{
+    margin-left:10px ;
+    margin-right:5px;
+}
+.section-1 .img-4, .img-5, .img-6{
+    margin-left:5px ;
+    margin-right:10px;
+}
+.section-1 .img-1, .img-3, .img-4, .img-5{
+    background-color: #000;
+    color: white;
+
+}
+
+.section-1 .img-1 img{
+    width: 479px;
+    height: 400px;
+   
+    
+}
+
+.section-1 .img-2 img{
+    width: 600px;
+    height: 400px;
+   
+}
+
+.section-1 .img-3 img{
+    width: 500px;
+    height: 363px;
+    padding-bottom: 37px;
+   
+}
+
+.section-1 .img-4 img{
+    width: 534px;
+    height: 400px;
+   
+}
+
+.section-1 .img-5 img{
+    width: 545px;
+    height: 400px;
+    position: relative;
+    left: 107px;
+   
+}
+.section-1 .img-5{
+    flex-direction: column;
+   
+}
+
+.section-1 .img-6 img{
+    width: 575px;
+    height: 375px;
+    
+}
+.section-1{
+    width: 50%;
+   
+}
+
+
+/*footer-section*/
+footer{
+    background-color: rgb(233, 231, 231);
+}
+
+.container-3 .para{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container-3 .para span{
+    border-bottom: 1px solid black;
+}
+.container-3 .para p{
+    width: 1200px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.somthing{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+   
+}
+.new-div{
+    width:1200px ;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid black ;
+}
+
+.somthing li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.somthing li span{
+    font-weight: bold;
+}
+.end-section p{
+    display: inline;
+    position: relative;
+    top: -22px;
+    left: 160px;
+    font-size: 14px;
+}
+
+.end-section p span{
+    color: #2997ff;
+
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
+
+.final .fianl-main{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.final .fianl-main p{
+    font-size: 14px;
+    position: relative;
+    top: -19px;
+}
+
+.final .fianl-main p span{
+    padding: 0  10px   0  10px;
+    border-left:1px solid black ;
+}
